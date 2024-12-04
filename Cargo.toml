@@ -15,7 +15,7 @@ indexmap = "1.9.1"
 
 [dependencies.cjval]
 # version = "0.5.0"
-path = "../cjval/"
+git = "https://github.com/cityjson/cjval"
 
 [profile.release]
 # Tell `rustc` to optimize for small code size.
